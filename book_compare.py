@@ -14,6 +14,6 @@ class book:
     def __gt__(self, other):
         return self.page > other.page
 
-book1 = book("magic of python", 700)
-book2 = book("master of the python", 600)
+book1 = book("magic of python", 600)
+book2 = book("master of the python", 700)
 print(book1 > book2)
